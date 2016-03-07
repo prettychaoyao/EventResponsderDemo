@@ -77,7 +77,7 @@
         }
     }else{
         //此点不在该View中，那么连遍历也省了，直接返回nil
-//        NSLog(@"hit view: %@",[touchView class]);
+        NSLog(@"hit view: %@",[touchView class]);
         touchView = nil;
     }
     return touchView;
